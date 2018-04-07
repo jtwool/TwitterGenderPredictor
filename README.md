@@ -19,11 +19,14 @@ _Sap, M., Park, G., Eichstaedt, J., Kern, M., Stillwell, D., Kosinski, M., ... &
 #### Example
 
 ```python
+# Step 2
 from SapGenderPrediction import GndrPrdct
 
+# Step 3
 Classifier  = GndrPrdct()
 tweets = ["This is a tweet.", "I'm another tweet!", "Hey, @realDonaldTrump, I'm yet another tweet!"]
 
+# Step 4
 Classifier.predict_gender(" ".join(tweets))
 ```
 
