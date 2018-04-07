@@ -16,6 +16,8 @@ _Sap, M., Park, G., Eichstaedt, J., Kern, M., Stillwell, D., Kosinski, M., ... &
 3. Initiate a `GndrPrdct` class object.
 4. Call the `predict_gender` method on a string collection of tweets.
 
+Predictions are returned as integers. 0 is a prediction of male, 1 is a prediction of female.
+
 #### Example
 
 ```python

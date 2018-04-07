@@ -3,7 +3,7 @@ import csv
 from math import sin
 
 class GndrPrdct:
-  '''Takes text and provides gender prediction'''
+  '''Takes text and provides gender prediction (1 is female, 0 is male)'''
   def __init__(self,fp="gender_lex.csv"):
     self.tknzr = hftknz.Tokenizer(preserve_case=False)
     self.weights = dict()
@@ -25,6 +25,8 @@ class GndrPrdct:
     wts = sum([self.weigh(t,tkns) for t in set(tkns)])
     p = sin(-0.06724152+wts)
     if p >= 0:
+      # Female
       return 1
     else: 
+      # Male
       return 0
