@@ -7,7 +7,7 @@ _jwolohan@indiana.edu_
 #### Description
 This is a Python implementation of Sap et al.'s gender prediction algorithm for Twitter.
 
-    Sap, M., Park, G., Eichstaedt, J., Kern, M., Stillwell, D., Kosinski, M., ... & Schwartz, H. A. (2014). Developing age and gender predictive lexica over social media. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP) (pp. 1146-1151).
+_Sap, M., Park, G., Eichstaedt, J., Kern, M., Stillwell, D., Kosinski, M., ... & Schwartz, H. A. (2014). Developing age and gender predictive lexica over social media. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP) (pp. 1146-1151)._
 
 ## Use 
 
@@ -19,7 +19,7 @@ This is a Python implementation of Sap et al.'s gender prediction algorithm for 
 #### Example
 
 ```python
-from SapGEnderPrediction import GndrPrdct
+from SapGenderPrediction import GndrPrdct
 
 Classifier  = GndrPrdct()
 tweets = ["This is a tweet.", "I'm another tweet!", "Hey, @realDonaldTrump, I'm yet another tweet!"]
